@@ -13,10 +13,9 @@ plugins {
 }
 
 sonar {
-    properties {
-        property("sonar.projectKey", "comixed_variant")
-        property("sonar.organization", "comixed")
-        property("sonar.host.url", "https://sonarcloud.io")
-        property("sonar.exclusions", "**/gradle.build.kts,**/build/**")
-    }
+  properties {
+    property("sonar.projectKey", "colin-sonarsource_variant")
+    property("sonar.organization", "colin-sonarsource-2")
+    property("sonar.host.url", "https://sonarcloud.io")
+  }
 }
